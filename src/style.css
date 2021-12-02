@@ -1,0 +1,83 @@
+:root {
+    --main-theam-background-color: #557a95;
+    --main-theam-font-color: white;
+    --section-height: 210px;
+    --btn-height: 35px;
+    --btn-width: 150px;
+    --btn-background-color: #557a95;
+}
+
+body {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: "PT Sans", sans-serif;
+}
+
+ul {
+    background-color: var(--main-theam-background-color);
+    height: 45px;
+}
+
+ul li {
+    display: inline;
+    float: right;
+    padding: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section-without-shade {
+    height: var(--section-height);
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.main-section-without-shade img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 350px;
+}
+
+.main-section-with-shade {
+    background-color: #f3f4f6;
+    height: var(--section-height);
+    margin-bottom: 25px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-btn {
+    width: var(--btn-width);
+    height: var(--btn-height);
+    background-color: var(--btn-background-color);
+    color: white;
+    border-radius: 15px;
+}
+
+.main-footer {
+    border-style: solid;
+    border-color: black;
+    height: 110px;
+    margin-top: 10px;
+    background-color: var(--main-theam-background-color);
+    color: var(--main-theam-font-color);
+    text-align: center;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 35px;
+}
