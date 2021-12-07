@@ -58,6 +58,10 @@ a {
     padding-top: 20px;
 }
 
+.main-section-with-shade:hover {
+    box-shadow: 5px 5px 25px;
+}
+
 .section-btn {
     width: var(--btn-width);
     height: var(--btn-height);
