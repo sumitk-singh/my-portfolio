@@ -13,6 +13,10 @@ body {
     font-family: "PT Sans", sans-serif;
 }
 
+h1 {
+    color: var(--main-theam-background-color);
+}
+
 ul {
     background-color: var(--main-theam-background-color);
     height: 45px;
@@ -84,4 +88,13 @@ a {
     text-decoration: none;
     color: white;
     padding-inline: 35px;
+}
+
+
+/* blog section */
+
+.blog-section {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
 }
