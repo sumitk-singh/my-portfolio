@@ -1,9 +1,9 @@
 :root {
     --main-theam-background-color: #086946;
     --main-theam-font-color: white;
-    --section-height: 210px;
-    --btn-height: 35px;
-    --btn-width: 150px;
+    --section-height: 250px;
+    --btn-height: 45px;
+    --btn-width: 200px;
     --btn-background-color: #086946;
 }
 
@@ -11,10 +11,12 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     font-family: "PT Sans", sans-serif;
+    background-color: rgb(218, 218, 218);
 }
 
 h1 {
     color: var(--main-theam-background-color);
+    font-size: xx-large;
 }
 
 ul {
@@ -54,7 +56,6 @@ a {
 }
 
 .main-section-with-shade {
-    background-color: #f3f4f6;
     height: var(--section-height);
     margin-bottom: 25px;
     border-radius: 15px;
@@ -72,14 +73,23 @@ a {
     background-color: var(--btn-background-color);
     color: white;
     border-radius: 15px;
+    font-size: medium;
+}
+
+.section-btn-transparent {
+    width: var(--btn-width);
+    height: var(--btn-height);
+    background-color: rgb(209, 207, 207);
+    color: #086946;
+    border-radius: 15px;
+    font-size: medium;
 }
 
 .main-footer {
-    border-style: solid;
-    border-color: black;
-    height: 110px;
+    height: 130px;
     margin-top: 10px;
-    background-color: var(--main-theam-background-color);
+    padding: 15px;
+    background-color: #555555;
     color: var(--main-theam-font-color);
     text-align: center;
 }
@@ -88,6 +98,10 @@ a {
     text-decoration: none;
     color: white;
     padding-inline: 35px;
+}
+
+#known-stack {
+    letter-spacing: 5px;
 }
 
 
