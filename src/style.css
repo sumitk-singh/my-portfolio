@@ -5,13 +5,27 @@
     --btn-height: 45px;
     --btn-width: 200px;
     --btn-background-color: #086946;
+    --btn-light-green-background-color: #0c9362;
 }
 
 body {
-    padding-left: 3%;
-    padding-right: 3%;
+
     font-family: "PT Sans", sans-serif;
     background-color: rgb(218, 218, 218);
+
+
+}
+
+section {
+    padding-left: 3%;
+    padding-right: 3%;
+   
+}
+
+#ftr {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0;
 }
 
 h1 {
@@ -22,6 +36,7 @@ h1 {
 ul {
     background-color: var(--main-theam-background-color);
     height: 45px;
+    border-radius: 10px;
 }
 
 ul li {
@@ -61,10 +76,13 @@ a {
     border-radius: 15px;
     text-align: center;
     padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .main-section-with-shade:hover {
     box-shadow: 5px 5px 25px;
+    transition: box-shadow 0.5s;
 }
 
 .section-btn {
@@ -74,6 +92,12 @@ a {
     color: white;
     border-radius: 15px;
     font-size: medium;
+}
+
+.section-btn:hover {
+    background-color: var(--btn-light-green-background-color);
+    transition: background-color 0.5s;
+
 }
 
 .section-btn-transparent {
@@ -111,4 +135,13 @@ a {
     text-align: left;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px #8f8e8e;
 }
